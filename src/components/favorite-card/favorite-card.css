@@ -1,52 +1,25 @@
-.favorite-card {
-  background-color: #fff2f0;
-  width: 10rem;
-  height: 10rem;
-  display: grid;
-  place-items: center;
-  border-radius: 2rem;
+.cards {
+  display: flex;
+  gap: 0.5em;
 }
-
-.favorite-card__inner {
+.favorite-card {
+  width: 8.5rem;
+  height: 9rem;
   display: grid;
   justify-items: center;
+  align-content: center;
+  border-radius: 20%;
   row-gap: 0.5em;
 }
-
-.favorite-card__text {
+.favorite-card--fruits {
+  background-color: #fff2f0;
   color: #4d0a00;
 }
-.vegetables-card {
+.favorite-card--vegetables {
   background-color: #eff7ee;
-  width: 10rem;
-  height: 10rem;
-  display: grid;
-  place-items: center;
-  border-radius: 2rem;
-}
-.vegetables-card_inner {
-  display: grid;
-  justify-items: center;
-  row-gap: 0.5em;
-}
-.vegetables-card_text {
   color: #1c3418;
 }
-.snack-card {
+.favorite-card--snack {
   background-color: #fff8eb;
-  width: 10rem;
-  height: 10rem;
-  display: grid;
-  place-items: center;
-  border-radius: 2rem;
-}
-
-.snack-card_inner {
-  display: grid;
-  justify-items: center;
-  row-gap: 0.5em;
-}
-
-.snack-card_text {
   color: #4d3200;
 }
