@@ -30,5 +30,23 @@
   row-gap: 0.5em;
 }
 .vegetables-card_text {
-  color: #4d0a00;
+  color: #1c3418;
+}
+.snack-card {
+  background-color: #fff8eb;
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+}
+
+.snack-card_inner {
+  display: grid;
+  justify-items: center;
+  row-gap: 0.5em;
+}
+
+.snack-card_text {
+  color: #4d3200;
 }
