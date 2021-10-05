@@ -1,6 +1,6 @@
-.cards {
+.favorite-cards {
   display: flex;
-  gap: 0.5em;
+  column-gap: 0.5em;
 }
 .favorite-card {
   width: 8.5rem;
