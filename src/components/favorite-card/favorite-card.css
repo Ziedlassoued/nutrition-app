@@ -1,3 +1,7 @@
+.favorite-cards {
+  display: flex;
+  gap: 1em;
+}
 .favorite-card {
   display: flex;
   width: 10rem;
@@ -19,8 +23,4 @@
 .favorite-card--snacks {
   background-color: #fff8eb;
   color: #4d3200;
-}
-.favorite-cards {
-  display: flex;
-  gap: 1em;
 }
