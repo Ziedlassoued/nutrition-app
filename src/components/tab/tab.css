@@ -8,15 +8,17 @@
   border-radius: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
 }
 .tabs__tab {
   padding: 1em;
 }
-.tab__active {
-  background-color: var(color-secondary);
+.tabs__tab--active {
+  background-color: var(--color-secondary);
+  color: var(--color-contrast);
 }
-.tab__inactive {
-  background-color: var(color-inactive);
+.tabs__tab--inactive {
+  background-color: var(--color-inactive);
+  color: var(--color-secondary);
 }
