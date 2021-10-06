@@ -1,11 +1,22 @@
-.tab-food {
-  display: flex;
+.tabs-example {
+  display: grid;
+  gap: 1rem;
+}
+.tabs {
+  background-color: var(--color-inactive);
+  color: var(--color-secondary);
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
-  gap: 0;
+  overflow: hidden;
 }
-.inactiv {
-  color: var(#ff9385);
+.tabs__tab {
+  padding: 1em;
 }
-.inactiv {
-  color: var(#fff8ee);
+.tab__active {
+  background-color: var(color-secondary);
+}
+.tab__inactive {
+  background-color: var(color-inactive);
 }
