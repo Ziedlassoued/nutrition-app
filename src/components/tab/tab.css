@@ -1,0 +1,11 @@
+.tab-food {
+  display: flex;
+  text-align: center;
+  gap: 0;
+}
+.inactiv {
+  color: var(#ff9385);
+}
+.inactiv {
+  color: var(#fff8ee);
+}
