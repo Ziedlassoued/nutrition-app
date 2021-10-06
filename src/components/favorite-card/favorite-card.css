@@ -1,0 +1,34 @@
+.favorite-card {
+  background-color: #fff2f0;
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+}
+
+.favorite-card__inner {
+  display: grid;
+  justify-items: center;
+  row-gap: 0.5em;
+}
+
+.favorite-card__text {
+  color: #4d0a00;
+}
+.vegetables-card {
+  background-color: #eff7ee;
+  width: 10rem;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+}
+.vegetables-card_inner {
+  display: grid;
+  justify-items: center;
+  row-gap: 0.5em;
+}
+.vegetables-card_text {
+  color: #4d0a00;
+}
