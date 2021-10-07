@@ -11,6 +11,7 @@
   --color-secondary: #ff8473;
   --color-inactive: #fff8ee;
   --color-contrast: #fff8ee;
+  --color-border-circle: rgb(228, 23, 136);
 }
 html {
   font-size: 16px;
