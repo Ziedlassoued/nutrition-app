@@ -7,25 +7,17 @@
   align-items: center;
   justify-content: center;
 }
-.welcome__tile {
+.welcome__title {
+  color: var(--color-contrast);
   font-size: 4rem;
-  animation: 4s ease-in-out bounce infinite alternate,
-    2s linear fadeIn infinite alternate;
+  animation: 3s linear fadeIn infinite;
 }
 
 @keyframes fadeIn {
   from {
-    opacity: 0, 5;
+    opacity: 0;
   }
   to {
-    opacity: 1, 2;
-  }
-}
-@keyframes bounce {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(300px);
+    opacity: 1;
   }
 }
