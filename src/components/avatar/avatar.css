@@ -9,15 +9,15 @@
   width: 10rem;
 }
 .avatar__badge {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
   background-color: var(--color-secondary);
   border-radius: 60%;
-  border: var(--color-border-circle);
+  border: var(--color-contrast);
   border: 1px solid white;
-  height: 1.6rem;
-  width: 1.6rem;
   display: grid;
   place-items: center;
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
 }
